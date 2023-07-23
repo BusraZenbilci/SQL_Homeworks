@@ -15,9 +15,9 @@ Bu repoda Başlangıç Seviye Veri Bilimi Patika'nın SQL derslerinin ödevleri 
 4) customer tablosunda bulunan first_name sütunundaki değeri 'Mary' olan müşterinin last_name sütunundaki değeri nedir?
    SELECT last_name FROM customer WHERE first_name = 'Mary';
 5) film tablosundaki uzunluğu(length) 50 ten büyük OLMAYIP aynı zamanda rental_rate değeri 2.99 veya 4.99 OLMAYAN verileri sıralayınız.
-   '''
+   ```
     SELECT * FROM film WHERE length < 50 AND NOT(rental_rate = 2.99 OR rental_rate = 4.99)
-   '''
+   ```
 ## SQL Ödev 02 | BETWEEN ve IN 
 1) film tablosunda bulunan tüm sütunlardaki verileri replacement cost değeri 12.99 dan büyük eşit ve 16.99 küçük olma koşuluyla sıralayınız ( BETWEEN - AND yapısını kullanınız.)
    SELECT * FROM film WHERE replacement_cost BETWEEN 12.99 AND 16.99
