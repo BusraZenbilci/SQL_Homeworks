@@ -29,6 +29,9 @@ Bu repoda Başlangıç Seviye Veri Bilimi Patika'nın SQL derslerinin ödevleri 
    AND replacement_cost IN (12.99 , 15.99 , 28.99);
 ## SQL Ödev 03 | LIKE ve ILIKE 
 
+SELECT * FROM film
+WHERE length > 60 AND length < 75;
+
 ## SQL Ödev 04 | DISTINCT ve COUNT 
 
 ## SQL Ödev 05 | ORDER BY | LIMIT ve OFFSET 
