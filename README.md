@@ -5,7 +5,7 @@
 ## SQL_Homeworks
 Bu repoda Başlangıç Seviye Veri Bilimi Patika'nın SQL derslerinin ödevleri bulunmaktadır.
 
-#SQL Ödev 01 | WHERE ve Karşılaştırma & Mantıksal 
+# SQL Ödev 01 | WHERE ve Karşılaştırma & Mantıksal 
 1) Film tablosunda bulunan title ve description sütunlarındaki verileri sıralayınız.
    SELECT title, description FROM film;
 2) Film tablosunda bulunan tüm sütunlardaki verileri film uzunluğu (length) 60 dan büyük VE 75 ten küçük olma koşullarıyla sıralayınız.
