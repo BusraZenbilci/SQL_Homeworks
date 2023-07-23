@@ -5,8 +5,8 @@
 # SQL_Homeworks
 Bu repoda Başlangıç Seviye Veri Bilimi Patika'nın SQL derslerinin ödevleri bulunmaktadır.
 
-# SQL Ödev 01 | WHERE ve Karşılaştırma & Mantıksal 
-# SQL Ödev 02 | BETWEEN ve IN 
+## SQL Ödev 01 | WHERE ve Karşılaştırma & Mantıksal 
+## SQL Ödev 02 | BETWEEN ve IN 
 # SQL Ödev 03 | LIKE ve ILIKE 
 # SQL Ödev 04 | DISTINCT ve COUNT 
 # SQL Ödev 05 | ORDER BY | LIMIT ve OFFSET 
