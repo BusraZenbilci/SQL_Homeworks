@@ -18,7 +18,7 @@ Bu repoda Başlangıç Seviye Veri Bilimi Patika'nın SQL derslerinin ödevleri 
 ## SQL Ödev 11 | LEFT, RIGHT, FULL JOIN 
 ## SQL Ödev 12 | UNION, INTERSECT ve EXCEPT 
 
-## SQL Ödev 01 | WHERE ve Karşılaştırma & Mantıksal 
+### SQL Ödev 01 | WHERE ve Karşılaştırma & Mantıksal 
 1) film tablosunda bulunan title ve description sütunlarındaki verileri sıralayınız.
    ```
    "SELECT title, description FROM film;"
