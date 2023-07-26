@@ -12,11 +12,11 @@ Bu repoda Başlangıç Seviye Veri Bilimi Patika'nın SQL derslerinin ödevleri 
 ### SQL Ödev 05 | ORDER BY | LIMIT ve OFFSET 
 ### SQL Ödev 06 | Aggregate Fonksiyonlar 
 ### SQL Ödev 07 | GROUP BY | HAVING 
-### SQL Ödev 08 | GROUP BY | HAVING 
-### SQL Ödev 09 | Tablo Oluşturma | Veri Güncelleme" 
-### SQL Ödev 10 | INNER JOIN 
-### SQL Ödev 11 | LEFT, RIGHT, FULL JOIN 
-### SQL Ödev 12 | UNION, INTERSECT ve EXCEPT 
+### SQL Ödev 08 | Tablo Oluşturma | Veri Güncelleme" 
+### SQL Ödev 09 | INNER JOIN 
+### SQL Ödev 10 | LEFT, RIGHT, FULL JOIN 
+### SQL Ödev 11 | UNION, INTERSECT ve EXCEPT 
+### SQL Ödev 12 | ALT SORGULAR
 
 ## SQL Ödev 01 | WHERE ve Karşılaştırma & Mantıksal 
 1) film tablosunda bulunan title ve description sütunlarındaki verileri sıralayınız.
@@ -159,8 +159,7 @@ FROM film
 WHERE length > 150;
 ```
 ## SQL Ödev 07 | GROUP BY | HAVING 
-## SQL Ödev 08 | GROUP BY | HAVING 
-## SQL Ödev 09 | Tablo Oluşturma | Veri Güncelleme" 
-## SQL Ödev 10 | INNER JOIN 
-## SQL Ödev 11 | LEFT, RIGHT, FULL JOIN 
-## SQL Ödev 12 | UNION, INTERSECT ve EXCEPT 
+## SQL Ödev 08 | Tablo Oluşturma | Veri Güncelleme" 
+## SQL Ödev 09 | INNER JOIN 
+## SQL Ödev 10 | LEFT, RIGHT, FULL JOIN 
+## SQL Ödev 11 | UNION, INTERSECT ve EXCEPT 
