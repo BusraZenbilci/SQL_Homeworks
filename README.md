@@ -249,7 +249,7 @@ insert into employee (id, name, email, birthday) values (48, 'Tad Darwen', 'tdar
 insert into employee (id, name, email, birthday) values (49, 'Meg De Gregario', null, '1961-06-23');
 insert into employee (id, name, email, birthday) values (50, 'Tori Halleday', 'thalleday1d@goo.ne.jp', '1970-05-23');
 ```
-3) Sütunların her birine göre diğer sütunları güncelleyecek 5 adet UPDATE işlemi yapalım.
+3) Sütunların her birine göre diğer sütunları güncelleyecek 2 adet UPDATE işlemi yapalım.
 ```
 UPDATE employee
 SET name = 'Busra',
@@ -264,19 +264,17 @@ SET name = 'UPDATE',
 	email = 'new@person.com'
 WHERE name = 'Selena Johanning'
 RETURNING (*);
-
-4) Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
+```
+4) Sütunların her birine göre ilgili satırı silecek 2 adet DELETE işlemi yapalım.
 ```
 DELETE FROM employee
 WHERE id = 15;
 ```
-DELETE FROM employee
-WHERE id > 41
-RETURNING *;
 ```
 DELETE FROM employee
 WHERE id > 41
 RETURNING *;
+```
 
 ## SQL Ödev 09 | INNER JOIN 
 ## SQL Ödev 10 | LEFT, RIGHT, FULL JOIN 
