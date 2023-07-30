@@ -187,7 +187,7 @@ ORDER BY COUNT(*) DESC
 LIMIT 1;
 ```
 ## SQL Ödev 08 | Tablo Oluşturma | Veri Güncelleme" 
-test veritabanınızda employee isimli sütun bilgileri id(INTEGER), name VARCHAR(50), birthday DATE, email VARCHAR(100) olan bir tablo oluşturalım.
+1) test veritabanınızda employee isimli sütun bilgileri id(INTEGER), name VARCHAR(50), birthday DATE, email VARCHAR(100) olan bir tablo oluşturalım.
 ```
 CREATE TABLE employee(
 	id SERIAL PRIMARY KEY,
@@ -196,7 +196,7 @@ CREATE TABLE employee(
 	email VARCHAR(100)
 );
 ```
-Oluşturduğumuz employee tablosuna 'Mockaroo' servisini kullanarak 50 adet veri ekleyelim.
+2) Oluşturduğumuz employee tablosuna 'Mockaroo' servisini kullanarak 50 adet veri ekleyelim.
 ```
 insert into employee (id, name, email, birthday) values (1, 'Banky Valler', 'bvaller0@hatena.ne.jp', '2003-02-10');
 insert into employee (id, name, email, birthday) values (2, 'Raimondo Abramamov', 'rabramamov1@wisc.edu', '2015-04-22');
@@ -249,7 +249,7 @@ insert into employee (id, name, email, birthday) values (48, 'Tad Darwen', 'tdar
 insert into employee (id, name, email, birthday) values (49, 'Meg De Gregario', null, '1961-06-23');
 insert into employee (id, name, email, birthday) values (50, 'Tori Halleday', 'thalleday1d@goo.ne.jp', '1970-05-23');
 ```
-Sütunların her birine göre diğer sütunları güncelleyecek 5 adet UPDATE işlemi yapalım.
+3) Sütunların her birine göre diğer sütunları güncelleyecek 5 adet UPDATE işlemi yapalım.
 ```
 UPDATE employee
 SET name = 'Busra',
@@ -265,7 +265,7 @@ SET name = 'UPDATE',
 WHERE name = 'Selena Johanning'
 RETURNING (*);
 
-Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
+4) Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
 ```
 DELETE FROM employee
 WHERE id = 15;
@@ -277,8 +277,7 @@ RETURNING *;
 DELETE FROM employee
 WHERE id > 41
 RETURNING *;
-```
-```
+
 ## SQL Ödev 09 | INNER JOIN 
 ## SQL Ödev 10 | LEFT, RIGHT, FULL JOIN 
 ## SQL Ödev 11 | UNION, INTERSECT ve EXCEPT 
